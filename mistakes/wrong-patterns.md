@@ -25,3 +25,7 @@
    → 예: `dict["quest_name"]`(틀림, 문자열 리터럴) 대신 `dict[quest_name]`(맞음, 매개변수 변수)이어야 함
 3. **괄호 혼동**: 딕셔너리 접근에 `()` 소괄호를 잘못 사용
    → `dict("key")`(틀림, 함수 호출처럼 씀) → `dict["key"]`(맞음, 대괄호로 접근)
+4. **반복문 변수를 반복문 밖에서 재사용** (2026-08-28): `for key, value in dict.items():`에서 쓰던 `key`라는 이름을, 반복문이 없는 다른 함수에서도 마치 존재하는 변수처럼 그대로 사용 → `NameError: name 'key' is not defined`
+   → 매개변수로 받은 이름(예: `item_name`)을 직접 키로 사용해야 함
+5. **괄호+비교 혼용으로 키 존재 확인 시도** (2026-08-28): `play_dict(player_name) == True`처럼 딕셔너리를 함수처럼 호출(`()`)하면서 동시에 `== True`로 키 존재를 확인하려 함 → `SyntaxError`
+   → 존재 확인은 `player_name in play_dict`, 값 접근/수정은 `play_dict[player_name]`
