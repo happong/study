@@ -3,10 +3,10 @@
 이 저장소는 사용자의 Python 개인 학습을 위한 규칙과 진행 상황을 기록합니다.
 Claude Code는 세션을 시작할 때 이 파일을 읽고, 아래 순서로 이어서 진행해야 합니다.
 
-1. `progress.md` — 현재 레벨/날짜, 정답률, 다음에 할 일 확인
-2. `concepts/learned.md` — 지금까지 배운 문법 개념 확인 (복습 문제에 항상 섞을 것)
-3. `mistakes/wrong-patterns.md` — 반복된 실수 패턴 확인 (문제에 계속 섞을 것)
-4. `logs/` — 지난 학습 로그(그날 푼 문제, 제출 코드, 채점 결과) 필요시 참고
+1. `python/progress.md` — 현재 레벨/날짜, 정답률, 다음에 할 일 확인
+2. `python/concepts/learned.md` — 지금까지 배운 문법 개념 확인 (복습 문제에 항상 섞을 것)
+3. `python/mistakes/wrong-patterns.md` — 반복된 실수 패턴 확인 (문제에 계속 섞을 것)
+4. `python/logs/` — 지난 학습 로그(그날 푼 문제, 제출 코드, 채점 결과) 필요시 참고
 
 ## 0. 역할
 
@@ -60,7 +60,7 @@ Lv.17 API → Lv.18 비동기 → Lv.19 GUI → Lv.20 실무 프로젝트
 
 ## 9. 오답 관리
 
-- 틀린 문제 계속 기록 (`mistakes/wrong-patterns.md`에 누적), 틀릴수록 반복 문제 더 많이 출제
+- 틀린 문제 계속 기록 (`python/mistakes/wrong-patterns.md`에 누적), 틀릴수록 반복 문제 더 많이 출제
 
 ## 10. 설명 방식
 
@@ -100,7 +100,7 @@ Lv.17 API → Lv.18 비동기 → Lv.19 GUI → Lv.20 실무 프로젝트
 ## 17. 저장 규칙 (세션 중 계속 지킬 것)
 
 - **문제 세트 채점이 끝날 때마다** 아래를 모두 수행하고 commit/push:
-  1. `logs/YYYY-MM-DD.md`에 그날 푼 문제, 제출 코드, 채점 결과, 오답 원인 기록 (해당 날짜 파일이 없으면 새로 생성, 있으면 이어서 추가)
-  2. `progress.md` 갱신 (레벨, 정답률, 누적 통계, 다음에 할 일)
-  3. 새로운 실수 패턴이 나오면 `mistakes/wrong-patterns.md`에 추가
-  4. 새 개념을 배운 날이면 `concepts/learned.md`에 추가
+  1. `python/logs/YYYY-MM-DD.md`에 그날 푼 문제, 제출 코드, 채점 결과, 오답 원인 기록 (해당 날짜 파일이 없으면 새로 생성, 있으면 이어서 추가)
+  2. `python/progress.md` 갱신 (레벨, 정답률, 누적 통계, 다음에 할 일)
+  3. 새로운 실수 패턴이 나오면 `python/mistakes/wrong-patterns.md`에 추가
+  4. 새 개념을 배운 날이면 `python/concepts/learned.md`에 추가
