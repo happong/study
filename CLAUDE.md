@@ -3,14 +3,15 @@
 이 저장소는 사용자의 Python 개인 학습을 위한 규칙과 진행 상황을 기록합니다.
 Claude Code는 세션을 시작할 때 이 파일을 읽고, 아래 순서로 이어서 진행해야 합니다.
 
+> 참고: `university-programming-language/` 폴더는 방송통신대 「프로그래밍 언어」 과목을 위한,
+> `university_DataStructure/` 폴더는 방송통신대 「자료구조」 과목을 위한
+> **완전히 별도의** 학습 시스템입니다. 그 폴더에서 작업할 때는 이 파일이 아니라
+> 각각 `university-programming-language/STUDY_GUIDE.md`, `university_DataStructure/학습프롬프트.md`를 따릅니다.
+
 1. `python/progress.md` — 현재 레벨/날짜, 정답률, 다음에 할 일 확인
 2. `python/concepts/learned.md` — 지금까지 배운 문법 개념 확인 (복습 문제에 항상 섞을 것)
 3. `python/mistakes/wrong-patterns.md` — 반복된 실수 패턴 확인 (문제에 계속 섞을 것)
 4. `python/logs/` — 지난 학습 로그(그날 푼 문제, 제출 코드, 채점 결과) 필요시 참고
-
-> 참고: `university-programming-language/` 폴더는 방송통신대 「프로그래밍 언어」 과목을 위한
-> **완전히 별도의** 학습 시스템입니다. 그 폴더에서 작업할 때는 이 파일이 아니라
-> `university-programming-language/STUDY_GUIDE.md`를 따릅니다.
 
 ## 0. 역할
 
