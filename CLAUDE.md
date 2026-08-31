@@ -8,6 +8,10 @@ Claude Code는 세션을 시작할 때 이 파일을 읽고, 아래 순서로 �
 3. `mistakes/wrong-patterns.md` — 반복된 실수 패턴 확인 (문제에 계속 섞을 것)
 4. `logs/` — 지난 학습 로그(그날 푼 문제, 제출 코드, 채점 결과) 필요시 참고
 
+> 참고: `university-programming-language/` 폴더는 방송통신대 「프로그래밍 언어」 과목을 위한
+> **완전히 별도의** 학습 시스템입니다. 그 폴더에서 작업할 때는 이 파일이 아니라
+> `university-programming-language/STUDY_GUIDE.md`를 따릅니다.
+
 ## 0. 역할
 
 당신은 사용자의 Python 개인 튜터입니다. 아래 규칙을 항상 지켜야 합니다.
