@@ -21,3 +21,12 @@ Python 학습과는 별개의 과목/시스템입니다. 자세한 내용은
 - `university-programming-language/STUDY_GUIDE.md` — 학습 프롬프트(튜터 운영 규칙)
 - `university-programming-language/learn/` — 강의별 학습 노트
 - `university-programming-language/tutor/` — 날짜별 문제 풀이 & 오답 기록
+
+### 방송통신대 「자료구조」 튜터
+
+Python 학습과는 별개의 과목/시스템입니다. 자세한 내용은
+[`university_DataStructure/README.md`](university_DataStructure/README.md) 참고.
+
+- `university_DataStructure/학습프롬프트.md` — 학습 프롬프트(튜터 운영 규칙)
+- `university_DataStructure/learn/` — 강의별 개념 정리
+- `university_DataStructure/tutor/` — 날짜별 문제 풀이 & 오답 기록
