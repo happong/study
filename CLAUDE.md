@@ -4,9 +4,11 @@
 Claude Code는 세션을 시작할 때 이 파일을 읽고, 아래 순서로 이어서 진행해야 합니다.
 
 > 참고: `university-programming-language/` 폴더는 방송통신대 「프로그래밍 언어」 과목을 위한,
-> `university_DataStructure/` 폴더는 방송통신대 「자료구조」 과목을 위한
+> `university_DataStructure/` 폴더는 방송통신대 「자료구조」 과목을 위한,
+> `university_CollegeMath/` 폴더는 방송통신대 「대학수학의 이해」 과목을 위한
 > **완전히 별도의** 학습 시스템입니다. 그 폴더에서 작업할 때는 이 파일이 아니라
-> 각각 `university-programming-language/STUDY_GUIDE.md`, `university_DataStructure/학습프롬프트.md`를 따릅니다.
+> 각각 `university-programming-language/STUDY_GUIDE.md`, `university_DataStructure/학습프롬프트.md`,
+> `university_CollegeMath/학습프롬프트.md`를 따릅니다.
 
 1. `python/progress.md` — 현재 레벨/날짜, 정답률, 다음에 할 일 확인
 2. `python/concepts/learned.md` — 지금까지 배운 문법 개념 확인 (복습 문제에 항상 섞을 것)
