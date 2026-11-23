@@ -64,4 +64,7 @@
 ## Lv.13 예외처리 (도입: 2026-10-02, 진행 중)
 - 기본 구조: `try:` 블록 실행 중 에러가 나면 멈추지 않고 `except:` 블록으로 넘어감
 - 에러 종류 지정: `except ValueError:`, `except ZeroDivisionError:`처럼 특정 에러만 잡을 수 있음 (지금까지 본 `TypeError`, `IndexError`, `KeyError` 등 그대로 사용 가능)
+- `FileNotFoundError`: 없는 파일을 `open(파일명, "r")`로 열려고 하면 발생. `except FileNotFoundError:`로 처리
+- 문자열에서 `in`으로 부분 문자열 포함 여부 확인: `"FAIL" in line`처럼 쓰면 그 문자열 안에 해당 글자들이 들어있는지 True/False로 확인됨 (딕셔너리의 `"key" in dict`와 같은 `in` 연산자지만, 대상이 문자열일 땐 "부분 문자열 포함 여부"를 뜻함)
+- `for line in 파일객체:`로 파일을 한 줄씩 순회 가능 (`readlines()`로 리스트를 먼저 만들지 않아도 됨)
 

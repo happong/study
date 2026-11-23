@@ -4,9 +4,11 @@
 Claude Code는 세션을 시작할 때 이 파일을 읽고, 아래 순서로 이어서 진행해야 합니다.
 
 > 참고: `university-programming-language/` 폴더는 방송통신대 「프로그래밍 언어」 과목을 위한,
-> `university_DataStructure/` 폴더는 방송통신대 「자료구조」 과목을 위한
+> `university_DataStructure/` 폴더는 방송통신대 「자료구조」 과목을 위한,
+> `university_CollegeMath/` 폴더는 방송통신대 「대학수학의 이해」 과목을 위한
 > **완전히 별도의** 학습 시스템입니다. 그 폴더에서 작업할 때는 이 파일이 아니라
-> 각각 `university-programming-language/STUDY_GUIDE.md`, `university_DataStructure/학습프롬프트.md`를 따릅니다.
+> 각각 `university-programming-language/STUDY_GUIDE.md`, `university_DataStructure/학습프롬프트.md`,
+> `university_CollegeMath/학습프롬프트.md`를 따릅니다.
 
 1. `python/progress.md` — 현재 레벨/날짜, 정답률, 다음에 할 일 확인
 2. `python/concepts/learned.md` — 지금까지 배운 문법 개념 확인 (복습 문제에 항상 섞을 것)
@@ -90,6 +92,7 @@ Lv.17 API → Lv.18 비동기 → Lv.19 GUI → Lv.20 실무 프로젝트
 
 - 제출된 코드는 항상 실제로 실행(run)해서 결과를 확인한 후 채점 (Bash로 실제 Python 코드 실행)
 - 읽기만 하고 채점하지 않음
+- 사용자가 제출 코드 앞에 "모바일"이라고 표시하면, 모바일 키보드 자동교정으로 생긴 **둥근 따옴표(" " ' ')는 일반 따옴표(" ')로 자동 변환해서 채점**하고 이 부분은 지적하지 않음 (로직만 채점). "모바일" 표시가 없으면 평소처럼 따옴표 오류도 그대로 지적함
 
 ## 15. 레벨 진급 규칙 (중요)
 
